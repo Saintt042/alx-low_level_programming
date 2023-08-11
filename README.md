@@ -1,1 +1,3 @@
-/alx-low_level_programming.git
+## 0x00. C - Hello, World
+
+Introduction to C programming at ALX 
