@@ -12,12 +12,12 @@ int main(void)
 	float b = a + 1;
 	float c = a + b;
 
-	printf("%llu, ", a);
-    printf("%llu, ", b);
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
 	while (counter < 98)
 	{
 		counter++;
-		printf("%llu", c);
+		printf("%.0f", c);
 		a = b;
 		b = c;
 		c = a + b;
